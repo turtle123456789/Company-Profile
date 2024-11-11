@@ -1,0 +1,102 @@
+@import url('fonts.css');
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-top{
+    background: rgba(204, 204, 204, 0.2);
+    font-family: "Open Sans", sans-serif;
+}
+.header-top_layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+}
+.header-top_layout-left{
+    display: flex;
+}
+.header-top_layout-left p{
+    color: #fff;
+    font-weight: 600;
+}
+
+.header-top_layout-left p span{
+    color: #A6A6A6;
+    margin-right: 12px;
+}
+.header-top_layout-left p:last-child span{
+    margin-left: 32px;
+    padding-left: 32px;
+    border-left: 1px solid #fff;
+}
+.header-top_layout-right{
+    display: flex;
+    gap:16px;
+}
+.header-top_layout-right > div{
+    display: flex;
+    gap:16px;
+}
+.header-main_layout{
+    height: 99px;
+}
+.header-main_layout > ul{
+    gap: 64px;
+}
+.link-popup{
+    position: relative;
+}
+
+.link-popup > img{
+    transition: transform 0.3s ease;
+}
+.link-popup:hover > a{
+    color:  rgba(244, 172, 22, 1);
+
+}
+.link-popup:hover > img {
+    transform: rotate(180deg);
+    filter: brightness(0) saturate(100%) invert(54%) sepia(92%) saturate(500%) hue-rotate(12deg) brightness(107%) contrast(105%);
+}
+.link-popup .menu-popup{
+    position: absolute;
+    display: none;
+    min-width: 260px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+    left: -8px;
+    padding-top: 6px;
+}
+.link-popup .menu-popup.active{
+    display: block;
+}
+.link-popup .menu-popup .menu-popup_layout{
+    position: relative;
+    background: rgba(244, 172, 22, 1);
+    min-width: 252px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 8px;
+    border-radius:4px;
+}
+.link-popup .menu-popup .menu-popup_layout::after {
+    content: '';
+    position: absolute; 
+    top: -20px;
+    left: 39px;
+    transform: translateX(-50%);
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+    border-bottom: 29px solid rgba(244, 172, 22, 1);
+    width: 52px;
+    height: 29px;
+}
+
+.link-popup .menu-popup .menu-popup_layout li:not(:last-child) {
+    margin-bottom: 16px;
+}
+.link-popup .menu-popup .menu-popup_layout a{
+    font-weight:600;
+}

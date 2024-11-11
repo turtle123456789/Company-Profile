@@ -1,0 +1,37 @@
+.poster-main--introduce{
+    background: linear-gradient(90deg, #020207 0%, rgba(2, 2, 7, 0.5) 100%), url('../imgs/bg-main.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+.poster-main--introduce .poster-main--introduce_layout{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.poster-main--introduce .poster-main--introduce_layout .poster-main--introduce_layout_left > div > p{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.poster-main--introduce .poster-main--introduce_layout .poster-main--introduce_layout_left > div > p >  span{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    color: rgba(244, 172, 22, 1);
+}
+.poster-main--introduce .poster-main--introduce_layout .poster-main--introduce_layout_left > h3{
+    max-width: 618px;
+    margin-bottom: 24px;
+}
+.poster-main--introduce .poster-main--introduce_layout .poster-main--introduce_layout_right .form-signIn{
+    max-width: 398px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 40px;
+    color: #000;
+}
+.poster-main--introduce .poster-main--introduce_layout .poster-main--introduce_layout_right .form-signIn .form-control{
+    height: 52px;
+}

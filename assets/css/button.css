@@ -1,0 +1,14 @@
+.btnCustom{
+    padding: 14px 20px;
+    color: #fff;
+    border: none;
+    border-radius:6px;
+    font-weight: 600;
+}
+.btnCustom-light{
+    background: rgba(244, 172, 22, 1);
+
+}
+.btnCustom-dark{
+    background: rgba(244, 172, 22, 1);
+}
