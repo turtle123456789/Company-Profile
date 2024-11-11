@@ -1,9 +1,10 @@
 @import url('fonts.css');
 header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9999;
 }
 .header-top{
     background: rgba(204, 204, 204, 0.2);

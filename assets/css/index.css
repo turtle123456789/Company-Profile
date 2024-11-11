@@ -1,7 +1,9 @@
 @import url('fonts.css');
 @import url('header.css');
-@import url('introduce.css');
+@import url('footer.css');
+@import url('home.css');
 @import url('button.css');
+@import url('input.css');
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +13,12 @@
 body{
     font-family: "Inter", sans-serif;
 }
+.container{
+    max-width: 1536px;
+}
 h1{
     font-size: 48px;
-    font-weight 700;
+    font-weight: 700;
     line-height: 60px;
 }
 h2{

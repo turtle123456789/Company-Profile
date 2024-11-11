@@ -1,0 +1,105 @@
+.poster-main--home{
+    background: linear-gradient(90deg, #020207 0%, rgba(2, 2, 7, 0.5) 100%), url('../imgs/bg-main.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.poster-main--home .poster-main--home_footer{
+    position: absolute;
+    bottom: 0;
+    background: rgba(204, 204, 204, 0.2);
+    width: 100%;
+}
+.poster-main--home .poster-main--home_footer .container{
+    display: flex;
+    gap: 61px;
+    align-items: center;
+    min-height: 80px;
+    color: #fff;
+}
+.poster-main--home .poster-main--home_footer span{
+    color: rgba(244, 172, 22, 1);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.poster-main--home .poster-main--home_layout{
+    color: #fff;
+}
+.poster-main--home .poster-main--home_layout .poster-main--home_layout_left > div > p{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.poster-main--home .poster-main--home_layout .poster-main--home_layout_left > div > p >  span{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    color: rgba(244, 172, 22, 1);
+}
+.poster-main--home .poster-main--home_layout .poster-main--home_layout_left > h3{
+    max-width: 618px;
+    margin-bottom: 24px;
+}
+.poster-main--home .poster-main--home_layout .poster-main--home_layout_right .form-signIn{
+    max-width: 398px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 40px;
+    color: #000;
+    box-shadow:-40px 40px 0 0 rgba(255, 255, 255, 0.16);
+
+}
+.poster-main--home .poster-main--home_layout .poster-main--home_layout_right .form-signIn .form-control{
+    height: 52px;
+}
+.main-aboutUs{
+    padding: 100px 0;
+    position: relative;
+}
+.main-aboutUs .bg-main-aboutUs{
+   position: absolute;
+   top: 0;
+   left: 368px;
+}
+
+.main-aboutUs .main-aboutUs_left{
+    max-width: 471px;
+}
+.main-aboutUs .main-aboutUs_left h2{
+    margin-bottom: 24px;
+}
+.main-aboutUs .main-aboutUs_left > p{
+    margin-bottom: 8px;
+    color: rgba(169, 169, 169, 1);
+
+}
+.main-aboutUs .main-aboutUs_left > p:first-child{
+    color: rgba(244, 172, 22, 1);
+    text-transform: uppercase;
+}
+.main-aboutUs .main-aboutUs_left .p-bold{
+    color: rgba(17, 17, 17, 1);
+    font-weight: 600;
+}
+.main-aboutUs .main-aboutUs_right{
+    min-width: 780px;
+    min-height: 588px;
+    position: relative;
+}
+.main-aboutUs .main-aboutUs_right img{
+    position: absolute;
+    border-radius: 4px;
+    right: 71px;
+    top: 26px;
+}
+.main-aboutUs .main-aboutUs_right img:first-child{
+    top: 0;
+    left: 0;
+}
+.main-aboutUs .main-aboutUs_right img:last-child{
+    right: 0;
+    top: 213px;
+}

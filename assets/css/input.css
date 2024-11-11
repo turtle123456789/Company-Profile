@@ -1,0 +1,22 @@
+.form-search{
+    position: relative;
+}
+.form-search input{
+    background: inherit;
+    border-radius: 134px;
+    border: 1px solid rgba(244, 172, 22, 1);
+    padding: 18px 16px;
+    min-width: 366px;
+}
+.form-search > div{
+    position: absolute;
+    background: rgba(244, 172, 22, 1);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 5px;
+    top: 12%;
+}
