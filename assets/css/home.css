@@ -103,3 +103,11 @@
     right: 0;
     top: 213px;
 }
+.main-service{
+    color: #fff;
+    background: #262626;
+    padding: 240px 0 120px;
+}
+.main-service .main-service_info{
+    max-width: 630px;
+}

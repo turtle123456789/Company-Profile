@@ -61,6 +61,10 @@ ul{
     display:flex;
     justify-content: space-between;
     align-items: center;
+}.content-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .poster-main{
     min-height: 100vh;
