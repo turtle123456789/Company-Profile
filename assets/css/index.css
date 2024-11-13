@@ -27,6 +27,13 @@ h1{
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    margin-bottom: 24px;
+}
+h1 span{
+    color: #F4AC16;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
 }
 h2{
     font-weight: 700;
@@ -73,6 +80,9 @@ ul{
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+.content-between.content-between-row{
+    flex-direction: row-reverse;
 }
 .content-center{
     display:flex;

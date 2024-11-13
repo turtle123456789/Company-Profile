@@ -4,7 +4,24 @@
     align-items: center;
     position: relative;
 }
-.poster-main--home
+.poster-main--home.poster-main--home--introduce{
+    background: linear-gradient(90deg, #020207 0%, rgba(2, 2, 7, 0.5) 100%), url('../imgs/bg-introduce.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.poster-main--home.poster-main--home--introduce img{
+    margin-bottom: 175px;
+}
+.poster-main--home.poster-main--home--introduce span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    background: rgba(244, 172, 22, 1);;
+}
 .poster-main--home .poster-main--home_footer{
     position: absolute;
     bottom: 0;
@@ -72,6 +89,86 @@
 
 .main-aboutUs .main-aboutUs_left{
     max-width: 471px;
+}
+.main-aboutUs .main-aboutUs_left.main-aboutUs_left--introduce{
+    max-width: 704px;
+}
+.main-aboutUs .main-aboutUs_left.main-aboutUs_left--introduce p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+.main-destiny .main-destiny_list{
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.main-destiny .main-destiny_list .main-destiny_list_item{
+    width: 459px;
+    height: 401px;
+    padding: 40px;
+    border-radius: 24px;
+    border: 2px solid #111111;
+    color: #94959B;
+    cursor: pointer;
+
+}
+.main-foundation{
+    margin: 120px 0;
+}
+.main-foundation .main-foundation_list > div:first-child{
+    max-width: 1313px;
+    margin: 60px auto;
+}
+.main-foundation .main-foundation_list > div:last-child{
+    max-width: 1313px;
+    margin: 60px auto;
+}
+.main-vision{
+    height: 739px;
+}
+.main-vision .main-vision_left{
+    background: #F7F7F7;
+
+}
+.main-vision .main-vision_left >div >div{
+    max-width: 573px;
+    padding: 169px 0;
+}
+.main-destiny .main-destiny_list .main-destiny_list_item h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #111111;
+    margin: 40px 0 17px 0;
+}
+.main-destiny .main-destiny_list_item:hover{
+    background: #262626;
+    color: #CCCCCC;
+}
+.main-destiny .main-destiny_list_item:hover h3{
+    color: #ffffff;
+}
+.main-aboutUs .main-aboutUs_left.main-aboutUs_left--introduce > div  >div{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 52px;
+}
+.main-aboutUs .main-aboutUs_left.main-aboutUs_left--introduce > div >div span{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #222222;
+}
+.main-aboutUs .main-aboutUs_left.main-aboutUs_left--introduce > div >div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #94959B;
+
+}
+.main-aboutUs .main-aboutUs_left h1{
+    margin-bottom: 24px;
 }
 .main-aboutUs .main-aboutUs_left h2{
     margin-bottom: 24px;
