@@ -13,13 +13,14 @@
 .poster-main--home.poster-main--home--introduce img{
     margin-bottom: 175px;
 }
-.poster-main--home.poster-main--home--introduce span{
+.poster-main--home.poster-main--home--introduce .poster-main--home_layout span{
     font-size: 20px;
     font-weight: 700;
     line-height: 32px;
     color: #000000;
     margin-bottom: 16px;
     margin-right: 20px;
+    padding: 2px 10px 4px 10px;
     background: rgba(244, 172, 22, 1);;
 }
 .poster-main--home .poster-main--home_footer{
@@ -104,7 +105,8 @@
     margin-bottom: 120px;
 }
 .main-destiny .main-destiny_list .main-destiny_list_item{
-    width: 459px;
+    max-width: 459px;
+    width: 100%;
     height: 401px;
     padding: 40px;
     border-radius: 24px;
@@ -115,6 +117,9 @@
 }
 .main-foundation{
     margin: 120px 0;
+}
+.main-foundation .main-foundation_list img{
+    width: 100%;
 }
 .main-foundation .main-foundation_list > div:first-child{
     max-width: 1313px;
