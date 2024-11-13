@@ -5,7 +5,7 @@
     position: relative;
 }
 .poster-main--home.poster-main--home--introduce{
-    background: linear-gradient(90deg, #020207 0%, rgba(2, 2, 7, 0.5) 100%), url('../imgs/bg-introduce.jpg') center/cover no-repeat;
+    background: linear-gradient(90deg, #020207 0%, rgba(2, 2, 7, 0.5) 100%), url('../imgs/bg-introduce.png') center/cover no-repeat;
     display: flex;
     align-items: center;
     position: relative;
