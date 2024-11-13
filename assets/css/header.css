@@ -30,9 +30,13 @@ header{
 .header-top.header-top--second .header-top_layout-left p{
     color: #111111;
 }
-.header-top.header-top--second .header-top_layout-right  img:not(:first-child){
+.header-top.header-top--second .header-top_layout-right  img{
     filter: invert(1)
 }
+.header-top.header-top--second .header-top_layout-right  .iconLanguage{
+    filter: none;
+}
+
 ;
 .header-top_layout-left p span{
     color: #A6A6A6;
@@ -51,6 +55,13 @@ header{
     display: flex;
     gap:16px;
 }
+.header-main a{
+    font-weight: 600;
+}
+.header-main.header-main--second a{
+    color: #111111;
+
+}
 .header-main_layout{
     height: 99px;
 }
@@ -66,7 +77,7 @@ header{
 }
 .link-popup:hover > a{
     color:  rgba(244, 172, 22, 1);
-
+    font-weight: 700;
 }
 .link-popup:hover > img {
     transform: rotate(180deg);
