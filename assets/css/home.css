@@ -278,6 +278,19 @@
     text-align: center;
     padding: 120px 0;
 }
+.main-partners.main-partners--introduce{
+    width: 100%;
+    background: #262626;
+    position: relative;
+}
+
+.main-bank{
+    background: #FBF8F1;
+    padding: 95px 0;
+}
+.main-bank h2{
+    margin-bottom: 64px;
+}
 .main-partners .main-partners_user{
     text-align: center;
     width: 100%;

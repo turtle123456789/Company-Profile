@@ -97,3 +97,8 @@ ul{
 .poster-main{
     min-height: 100vh;
 }
+.swiper-pagination-bullet{
+    width: 16px;
+    height: 16px;
+    background: #F4AC16;
+}
