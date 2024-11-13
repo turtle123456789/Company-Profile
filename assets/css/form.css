@@ -1,0 +1,116 @@
+.form-search{
+    position: relative;
+}
+.form-search input{
+    background: inherit;
+    border-radius: 134px;
+    border: 1px solid rgba(244, 172, 22, 1);
+    padding: 18px 16px;
+    min-width: 366px;
+}
+.form-search > div{
+    position: absolute;
+    background: rgba(244, 172, 22, 1);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 5px;
+    top: 12%;
+}
+
+.form-receive-news{
+    position: relative;
+}
+.form-receive-news input{
+    background: #D29A16;
+    min-width: 550px;
+    height:60px;
+    padding: 18px 16px 18px 16px;
+    border-radius: 8px;
+    border: none;
+}
+.form-receive-news div{
+    height: 48px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+.form-receive-news div button{
+    color: #111111;
+}
+.form-receive-news input::placeholder {
+    color: #fff;
+  }
+.form-contact{
+    border: 2px solid #F7F7F7;
+    box-shadow: 0px 0px 30px 0px #00000012;
+    border-radius: 32px;
+    padding: 48px;
+    margin: 48px 0;
+}
+.main-contact_detail{
+    max-width: 1227px;
+    margin: auto;
+}
+.main-contact_detail > div{
+    padding: 24px;
+}
+.main-contact_detail > div img{
+    margin-bottom: 64px;
+}
+.main-contact_detail  .btnCustom{
+    display: flex;
+    min-width: 198px;
+    height: 52px;
+    margin: 0;
+}
+.main-contact_detail span{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    
+}
+.main-contact_detail h3{
+    color: #94959B;
+    margin: 16px 0;
+}
+.main-contact_detail h4{
+    color: #F4AC16;
+
+}
+.form-contact label{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #262626;
+}
+.form-contact .form-contact_enter{
+    margin-bottom: 48px;
+}
+.form-contact label span{
+    color: #EB3F49;
+}
+.form-contact .form-contact_mess textarea{
+    height: 170px;
+    width: 100%;
+    padding: 9px 16px 9px 16px;
+    border-radius: 4px;
+    background: #F7F7F7;
+    resize: none;
+}
+.form-contact .btnCustom{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    margin-top: 48px;
+}
+.form-contact input{
+    min-width: 565px;
+    height: 52px;
+    padding: 9px 16px 9px 16px;
+    border-radius: 4px;
+    background: #F7F7F7;
+}

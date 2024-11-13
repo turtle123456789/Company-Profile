@@ -5,11 +5,43 @@
     border-radius:6px;
     font-weight: 600;
     margin-top: 24px;
-}
-.btnCustom-light{
     background: rgba(244, 172, 22, 1);
+}
+.btnCustom-receive{
+    padding: 10px 20px;
+    height: 100%;
+    color: #fff;
+    border: none;
+    border-radius:6px;
+    font-weight: 600;
+}
 
+.custom-button-next{
+    position: absolute;
+    background-color: #CCCCCC1A;
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    z-index: 10;  
+    right: 5%;
 }
-.btnCustom-dark{
-    background: rgba(244, 172, 22, 1);
+.custom-button-prev{
+    position: absolute;
+    background-color: #CCCCCC1A;
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    left: 5%;
+}
+.swiper-slide{
+    justify-content: center;
+    display: flex;
 }
