@@ -24,6 +24,7 @@
 
 .form-receive-news{
     position: relative;
+    width: 100%;
 }
 .form-receive-news input{
     background: #D29A16;

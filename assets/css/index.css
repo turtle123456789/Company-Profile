@@ -168,6 +168,15 @@ ul{
     }
 
 }
+@media (max-width: 772px){
+    input{
+        min-width: auto !important;
+    }
+
+}
 .dropdown-item:focus, .dropdown-item:hover {
     background: #686868;
+}
+main{
+    overflow:hidden;
 }

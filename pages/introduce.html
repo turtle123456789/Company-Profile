@@ -238,7 +238,9 @@
                     </div>
                 </div>
             </div>
-            <img class="bg-main-aboutUs" src="../assets/imgs/LooperGroup.png" alt="bg image">
+            <div class="bg-main-aboutUs">
+                <img class="w-100" src="../assets/imgs/LooperGroup.png" alt="bg image">
+            </div>
         </div>
         <div class="main-destiny">
             <div class="container container-xxl  container-xl  container-lg container-md container-sm">
@@ -774,7 +776,6 @@
       
         const swiper = new Swiper('.swiper', {
             loop: true,
-            slidesPerView: 3,
             navigation: {
                 nextEl: '.custom-button-next', 
                 prevEl: '.custom-button-prev'
@@ -793,7 +794,6 @@
         })
         const swiper2 = new Swiper('.swiper2', {
             loop: true,
-            slidesPerView: 3,
       
             pagination: {
                 el: '.swiper-pagination',
