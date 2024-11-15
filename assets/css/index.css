@@ -168,3 +168,6 @@ ul{
     }
 
 }
+.dropdown-item:focus, .dropdown-item:hover {
+    background: #686868;
+}

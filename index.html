@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="header-top">
+        <div class="header-top d-none d-lg-block">
             <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <div class="header-top_layout">
                     <div class="header-top_layout-left">
@@ -48,8 +48,10 @@
         <div class="header-main d-none d-lg-block">
             <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <div class="header-main_layout d-flex justify-content-between align-items-center">
-                    <div>
-                        <img src="./assets/imgs/logo.png" alt="image logo">
+                    <div style="cursor: pointer;">
+                        <a href="#">
+                            <img src="./assets/imgs/logo.png" alt="image logo">
+                        </a>
                     </div>
                     <ul class="d-flex align-items-center">
                         <li class="link-popup">
@@ -121,7 +123,7 @@
         <nav class="navbar d-lg-none navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/imgs/logo.png" alt="Logo" style="height: 40px;">
+                    <img src="./assets/imgs/logo.png" alt="Logo" style="height: 40px;">
                 </a>
                 <button class="navbar-toggler" style="background: #0000006b;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon" style="background-image: url(./assets/imgs/menu.png);"></span>
@@ -129,10 +131,13 @@
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto" style="background: #0000006b;">
                         <li style="padding: 0 10px;"  class="nav-item">
-                            <a style="color: #fff;" class="nav-link" href="../index.html">Trang chủ</a>
+                            <a style="color: #fff;" class="nav-link" href="#">Trang chủ</a>
+                        </li>
+                        <li style="padding: 0 10px;"  class="nav-item">
+                            <a style="color: #fff;" class="nav-link" href="./pages/introduce.html">Giới thiệu</a>
                         </li>
                         <li style="padding: 0 10px;"  class="nav-item dropdown">
-                            <a style="color: #fff;" class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a style="color: #fff;" class="nav-link dropdown-toggle" href="./pages/product.html" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Sản phẩm
                             </a>
                             <ul class="dropdown-menu" style="background: #0000002e;" aria-labelledby="productDropdown">
@@ -146,11 +151,11 @@
                             <a style="color: #fff;" class="nav-link dropdown-toggle" href="#" id="serviceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Dịch vụ
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
-                                <li style="padding: 0 10px;" ><a class="dropdown-item" href="#">Hệ thống vận hành quản lý sản xuất</a></li>
-                                <li style="padding: 0 10px;" ><a class="dropdown-item" href="#">Hệ thống quản lý nhân sự và đào tạo nội bộ</a></li>
-                                <li style="padding: 0 10px;" ><a class="dropdown-item" href="#">Hệ thống quản lý tòa nhà văn phòng</a></li>
-                                <li style="padding: 0 10px;" ><a class="dropdown-item" href="#">Hệ thống tiếp nhận, xử lý các yêu cầu hỗ trợ E-Ticket</a></li>
+                            <ul class="dropdown-menu" style="background: #0000002e;" aria-labelledby="serviceDropdown">
+                                <li style="padding: 0 10px;" ><a style="color: #fff;" class="dropdown-item" href="#">Hệ thống vận hành quản lý sản xuất</a></li>
+                                <li style="padding: 0 10px;" ><a style="color: #fff;" class="dropdown-item" href="#">Hệ thống quản lý nhân sự và đào tạo nội bộ</a></li>
+                                <li style="padding: 0 10px;" ><a style="color: #fff;" class="dropdown-item" href="#">Hệ thống quản lý tòa nhà văn phòng</a></li>
+                                <li style="padding: 0 10px;" ><a style="color: #fff;" class="dropdown-item" href="#">Hệ thống tiếp nhận, xử lý các yêu cầu hỗ trợ E-Ticket</a></li>
                             </ul>
                         </li>
                         <li style="padding: 0 10px;"  class="nav-item">
@@ -595,7 +600,7 @@
                     <div>
                         <img src="./assets/imgs/logo.png" width="229" height="56" alt="logo">
                     </div>
-                    <div class="footer-main_info">
+                    <div class="footer-main_info d-none d-lg-block">
                         <div>
                             <div><img src="./assets/imgs/telephone.png" alt="image"></div>
                             <div>
@@ -683,15 +688,15 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-second d-flex justify-content-between align-items-center">
-                <div>
+            <div class="footer-second d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
+                <div class="d-flex gap-3 align-items-center">
                     <div><a href="#"><img src="./assets/icons/facebook.svg" alt="icon"></a></div>
                     <div><a href="#"><img src="./assets/icons/twitter.svg" alt="icon"></a></div>
                     <div><a href="#"><img src="./assets/icons/GooglePlus.svg" alt="icon"></a></div>
                     <div><a href="#"><img src="./assets/icons/youtube.svg" alt="icon"></a></div>
                     <div><a href="#"><img src="./assets/icons/instagram.svg" alt="icon"></a></div>
                 </div>
-                <div>
+                <div class="text-center text-md-start">
                     <p>Copyright © 2022. All rights reserved. Thiết kế và phát triển bởi dtts.com.vn</p>
                 </div>
             </div>
