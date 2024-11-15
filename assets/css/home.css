@@ -12,6 +12,12 @@
 }
 .poster-main--home.poster-main--home--introduce img{
     margin-bottom: 175px;
+    width: 100%;
+}
+@media (Max-width:1400px){
+    .poster-main--home.poster-main--home--introduce img{
+        margin-bottom: 50px;
+    }
 }
 .poster-main--home.poster-main--home--introduce .poster-main--home_layout span{
     font-size: 20px;
@@ -42,8 +48,17 @@
     font-weight: 400;
     line-height: 40px;
 }
+@media(max-width:768px){
+    .poster-main--home .poster-main--home_footer .container{
+        gap: 10px;
+    }
+    .poster-main--home .poster-main--home_footer span{
+        font-size: 14px;
+    }
+}
 .poster-main--home .poster-main--home_layout{
     color: #fff;
+    padding: 160px 0;
 }
 .poster-main--home .poster-main--home_layout .poster-main--home_layout_left > div > p{
     font-size: 60px;
@@ -52,18 +67,33 @@
     margin-bottom: 24px;
     text-transform: uppercase;
 }
+
 .poster-main--home .poster-main--home_layout .poster-main--home_layout_left > div > p >  span{
     font-size: 60px;
     font-weight: 700;
     line-height: 80px;
     color: rgba(244, 172, 22, 1);
 }
+
+@media (max-width:1400px){
+    .poster-main--home .poster-main--home_layout .poster-main--home_layout_left > div > p{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+    .poster-main--home .poster-main--home_layout .poster-main--home_layout_left > div > p >  span{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+}
 .poster-main--home .poster-main--home_layout .poster-main--home_layout_left > h3{
     max-width: 618px;
     margin-bottom: 24px;
 }
 .poster-main--home .poster-main--home_layout .poster-main--home_layout_right .form-signIn{
-    max-width: 398px;
+    min-width: 398px;
+    width: 100%;
     background: #fff;
     border-radius: 4px;
     padding: 40px;
@@ -87,11 +117,22 @@
    top: 0;
    left: 368px;
 }
-
+@media (max-width:1200px){
+    .main-aboutUs{
+        padding: 50px 0 180px;
+    }
+    .main-aboutUs--introduce{
+        padding-bottom: 20px;
+    }
+    .main-aboutUs .bg-main-aboutUs{
+        left: 0;
+    }
+}
 .main-aboutUs .main-aboutUs_left{
-    max-width: 471px;
+    width:100%;
 }
 .main-aboutUs .main-aboutUs_left.main-aboutUs_left--introduce{
+    min-width: 564px;
     max-width: 704px;
 }
 .main-aboutUs .main-aboutUs_left.main-aboutUs_left--introduce p{
@@ -118,6 +159,11 @@
 .main-foundation{
     margin: 120px 0;
 }
+@media (max-width:1200px){
+    .main-foundation{
+        margin: 60px 0;
+    }
+}
 .main-foundation .main-foundation_list img{
     width: 100%;
 }
@@ -131,6 +177,11 @@
 }
 .main-vision{
     height: 739px;
+}
+@media (max-width: 1200px){
+    .main-vision{
+        height: 540px;
+    }
 }
 .main-vision .main-vision_left{
     background: #F7F7F7;
@@ -192,21 +243,22 @@
     font-weight: 600;
 }
 .main-aboutUs .main-aboutUs_right{
-    min-width: 780px;
+    max-width: 780px;
+    width: 100%;
     min-height: 588px;
     position: relative;
 }
-.main-aboutUs .main-aboutUs_right img{
+.main-aboutUs .main-aboutUs_right div{
     position: absolute;
     border-radius: 4px;
     right: 71px;
     top: 26px;
 }
-.main-aboutUs .main-aboutUs_right img:first-child{
+.main-aboutUs .main-aboutUs_right div:first-child{
     top: 0;
     left: 0;
 }
-.main-aboutUs .main-aboutUs_right img:last-child{
+.main-aboutUs .main-aboutUs_right div:last-child{
     right: 0;
     top: 213px;
 }
@@ -224,14 +276,21 @@
     
 }
 .main-service .detailed-data .detailed-data_layout{
-    width: 1296px;
+    max-width: 1296px;
+    width: 100%;
     height: 260px;
     background: rgba(244, 172, 22, 1);
     display: flex;
+    gap:40px;
     justify-content: space-evenly;
     align-items: center;
     color: rgba(17, 17, 17, 1);
-
+    padding: 20px 0;
+}
+@media(max-width:992px){
+    .main-service .detailed-data .detailed-data_layout{
+        flex-wrap: wrap;
+    }
 }
 .main-service .detailed-data .detailed-data_layout h2{
     margin: 0;
@@ -247,9 +306,6 @@
 .main-service h2{
     margin: 8px 0 32px 0;
 
-}
-.main-service .content-center{
-    gap:130px;
 }
 .main-service .main-service_info > p{
     margin: 24px  0;
@@ -269,8 +325,10 @@
 .practice-set{
     padding: 110px 0;
 }
-.practice-set .content-between{
-    padding-top: 64px;
+@media (max-width:992px){
+    .practice-set{
+        padding: 50px 0;
+    }
 }
 .practice-set img{
     width: 100%;
@@ -285,6 +343,11 @@
     margin: auto;
     text-align: center;
     padding: 120px 0;
+}
+@media (max-width:1200px){
+    .main-partners{
+        padding: 50px;
+    }
 }
 .main-partners.main-partners--introduce{
     width: 100%;
@@ -304,6 +367,11 @@
     width: 100%;
     max-width: 384px;
     margin-top: 88px;
+}
+@media (max-width:1200px){
+    .main-partners .main-partners_user{
+        margin-top: 40px;
+    }
 }
 .main-partners .main-partners_user img{
     margin-bottom: 24px;
@@ -330,8 +398,8 @@
     line-height: 24px;
     color: #F4AC16;
 }
-.main-news p{
-    
+.main-news h3{
+    margin:16px 0;
 }
 .main-news .main-news_header h2{
     margin-bottom: 0;
@@ -365,9 +433,11 @@
     color: #94959B;
 }
 .main-news .main-news_body > div:last-child {
+    min-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap:10px;
 }
 .main-news .main-news_body > div:last-child > div{
     max-width: 581px;  
@@ -398,21 +468,23 @@
     line-height: 16px;
     color: #94959B;
 }
+@media (max-width:992px){
+    .main-news{
+        margin: 20px ;
+    }
+    .main-news .main-news_body{
+        margin-top: 10px;
+        flex-direction: column; 
+    }
+}
 .site-product .site-product_list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    justify-content: space-between;
-}
-.site-product .site-product_list .site-product_list_item{
-    width: 458px;
-    position: relative;
-}
-.site-product .site-product_list .site-product_list_item{
-    width: 458px;
-    position: relative;
-}
 
+}
+.site-product .site-product_list .site-product_list_item{
+    width: 100%;
+    position: relative;
+    padding:10px;
+}
 .site-product .site-product_list .site-product_list_item > div:first-child{
     width: 100%;
     height: 500px;
@@ -436,10 +508,6 @@
 @media (max-width: 1536px) {
     .site-product .site-product_list{
         gap: 18px;
-    }
-    .site-product .site-product_list .site-product_list_item{
-        width: 420px;
-        position: relative;
     }
     .site-product .site-product_list .site-product_list_item > div:first-child{
         height: 462px;

@@ -55,6 +55,9 @@ header{
     display: flex;
     gap:16px;
 }
+.header-top_layout-right  img{
+    cursor:pointer  
+}
 .header-main a{
     font-weight: 600;
 }
@@ -68,6 +71,12 @@ header{
 .header-main_layout > ul{
     gap: 64px;
 }
+@media (max-width: 1400px){
+    .header-main_layout > ul{
+        gap: 32px;
+    }
+}
+
 .link-popup{
     position: relative;
 }

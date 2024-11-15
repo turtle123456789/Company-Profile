@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="header-top">
-            <div class="container">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <div class="header-top_layout">
                     <div class="header-top_layout-left">
                         <p><span>Hotline:</span>0984662186</p>
@@ -45,17 +45,17 @@
                 </div>
             </div>
         </div>
-        <div class="header-main">
-            <div class="container">
-                <div class="header-main_layout content-between">
+        <div class="header-main d-none d-lg-block">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
+                <div class="header-main_layout d-flex justify-content-between align-items-center">
                     <div>
                         <img src="./assets/imgs/logo.png" alt="image logo">
                     </div>
-                    <ul class="content-between">
-                        <li>
+                    <ul class="d-flex align-items-center">
+                        <li class="link-popup">
                             <a href="#">Trang chủ</a>
                         </li>
-                        <li>
+                        <li class="link-popup">
                             <a href="./pages/introduce.html">Giới thiệu</a>
                         </li>
                         <li class="link-popup">
@@ -102,27 +102,76 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="link-popup">
                             <a href="#">Tin tức</a>
                         </li>
-                        <li>
+                        <li class="link-popup">
                             <a href="#">Tuyển dụng</a>
                         </li>
-                        <li>
+                        <li class="link-popup">
                             <a href="#">Liên hệ</a>
                         </li>
                     </ul>
-                    <div>
+                    <div style="cursor: pointer;">
                         <img src="./assets/icons/iconSearch.svg" alt="icon">
                     </div>
                 </div>
             </div>
         </div>
+        <nav class="navbar d-lg-none navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/imgs/logo.png" alt="Logo" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" style="background: #0000006b;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="background-image: url(./assets/imgs/menu.png);"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto" style="background: #0000006b;">
+                        <li style="padding: 0 10px;"  class="nav-item">
+                            <a style="color: #fff;" class="nav-link" href="../index.html">Trang chủ</a>
+                        </li>
+                        <li style="padding: 0 10px;"  class="nav-item dropdown">
+                            <a style="color: #fff;" class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sản phẩm
+                            </a>
+                            <ul class="dropdown-menu" style="background: #0000002e;" aria-labelledby="productDropdown">
+                                <li style="padding: 0 10px;" ><a style="color: #fff;" class="dropdown-item" href="#">Hệ thống vận hành quản lý sản xuất</a></li>
+                                <li style="padding: 0 10px;" ><a style="color: #fff;" class="dropdown-item" href="#">Hệ thống quản lý nhân sự và đào tạo nội bộ</a></li>
+                                <li style="padding: 0 10px;" ><a style="color: #fff;" class="dropdown-item" href="#">Hệ thống quản lý tòa nhà văn phòng</a></li>
+                                <li style="padding: 0 10px;" ><a style="color: #fff;" class="dropdown-item" href="#">Hệ thống tiếp nhận, xử lý các yêu cầu hỗ trợ E-Ticket</a></li>
+                            </ul>
+                        </li>
+                        <li style="padding: 0 10px;"  class="nav-item dropdown">
+                            <a style="color: #fff;" class="nav-link dropdown-toggle" href="#" id="serviceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dịch vụ
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
+                                <li style="padding: 0 10px;" ><a class="dropdown-item" href="#">Hệ thống vận hành quản lý sản xuất</a></li>
+                                <li style="padding: 0 10px;" ><a class="dropdown-item" href="#">Hệ thống quản lý nhân sự và đào tạo nội bộ</a></li>
+                                <li style="padding: 0 10px;" ><a class="dropdown-item" href="#">Hệ thống quản lý tòa nhà văn phòng</a></li>
+                                <li style="padding: 0 10px;" ><a class="dropdown-item" href="#">Hệ thống tiếp nhận, xử lý các yêu cầu hỗ trợ E-Ticket</a></li>
+                            </ul>
+                        </li>
+                        <li style="padding: 0 10px;"  class="nav-item">
+                            <a style="color: #fff;" class="nav-link" href="#">Tin tức</a>
+                        </li>
+                        <li style="padding: 0 10px;"  class="nav-item">
+                            <a style="color: #fff;" class="nav-link" href="#">Tuyển dụng</a>
+                        </li>
+                        <li style="padding: 0 10px;"  class="nav-item">
+                            <a style="color: #fff;" class="nav-link" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
     </header>
     <main>
         <div class="poster-main poster-main--home">
-            <div class="container">
-                <div class="poster-main--home_layout content-between">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
+                <div class="poster-main--home_layout d-flex flex-wrap flex-lg-nowrap justify-content-between gap-5">
                     <div class="poster-main--home_layout_left">
                         <div>
                             <p>
@@ -154,38 +203,48 @@
                 </div>
             </div>
             <div class="poster-main--home_footer">
-                <div class="container">
+                <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                     <span>TIN NỔI BẬT</span>
                     <p>Các xu hướng công nghệ được bàn tại Tech Trends 2023 sáng nay</p>
                 </div>
             </div>
         </div>
         <div class="main-aboutUs">
-            <div class="container">
-                <div class="content-between">
-                    <div class="main-aboutUs_left">
-                        <p>VỀ CHÚNG TÔI</p>
-                        <h2>Công ty TNHH DTTS</h2>
-                        <p>Được thành lập từ ngày 08/07/2021, DTTS cung cấp cho khách hàng các sản phẩm, dịch vụ và giải pháp CNTT tin cậy và hiệu quả.</p>
-                        <p>DTTS phấn đấu tạo nên một thương hiệu uy tín thể hiện tầm vóc, trí tuệ và niềm tự hào Việt Nam nhằm đóng góp cho sự phát triển của đất nước trong cuộc cách mạng số 4.0.</p>
-                        <p class="p-bold">Chuẩn bị cho sự thành công của bạn bằng việc tin tưởng vào các dịch vụ CNTT của chúng tôi</p>
-                        <button class="btnCustom">Xem thêm</button>
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
+                <div class="row gap-5 gap-xl-0">
+                    <div class="col  col-12 d-flex justify-content-center col-xl-4 ">
+                        <div class="main-aboutUs_left">
+                            <p>VỀ CHÚNG TÔI</p>
+                            <h2>Công ty TNHH DTTS</h2>
+                            <p>Được thành lập từ ngày 08/07/2021, DTTS cung cấp cho khách hàng các sản phẩm, dịch vụ và giải pháp CNTT tin cậy và hiệu quả.</p>
+                            <p>DTTS phấn đấu tạo nên một thương hiệu uy tín thể hiện tầm vóc, trí tuệ và niềm tự hào Việt Nam nhằm đóng góp cho sự phát triển của đất nước trong cuộc cách mạng số 4.0.</p>
+                            <p class="p-bold">Chuẩn bị cho sự thành công của bạn bằng việc tin tưởng vào các dịch vụ CNTT của chúng tôi</p>
+                            <button class="btnCustom">Xem thêm</button>
+                        </div>
                     </div>
-                    <div class="main-aboutUs_right">
-                        <img src="./assets/imgs/image2.png" alt="image">
-                        <img src="./assets/imgs/logo1.png" alt="image">
-                        <img src="./assets/imgs/image1.png" alt="image">
+                    <div class="col d-none  col-12 d-md-flex justify-content-center col-xl-8">
+                        <div class="main-aboutUs_right">
+                            <div>
+                                <img src="./assets/imgs/image2.png" alt="image">
+                            </div>
+                            <div>
+                                <img src="./assets/imgs/logo1.png" alt="image">
+                            </div>
+                            <div>
+                                <img src="./assets/imgs/image1.png" alt="image">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <img class="bg-main-aboutUs" src="./assets/imgs/LooperGroup.png" alt="bg image">
+            <img class="bg-main-aboutUs " src="./assets/imgs/LooperGroup.png" alt="bg image">
         </div>
         <div class="main-service">
             <img class="position-absolute top-50 start-50 translate-middle" src="./assets/imgs/Grid.png" alt="bg">
             <img class="position-absolute bottom-0" src="./assets/imgs/vector1.png" alt="bg">
             <img class="position-absolute end-0" src="./assets/imgs/vertor2.png" alt="bg">
             <div class="detailed-data">
-                <div class="container  content-center">
+                <div class="container container-xxl  container-xl  container-lg container-md container-sm  content-center">
                     <div class="detailed-data_layout position-relative">
                         <img class="position-absolute start-0" src="./assets/imgs/Frame.png" alt="bg">
                         <div class="text-center">
@@ -207,20 +266,20 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <div class="text-center">
                     <h5>DỊCH VỤ CỦA CHÚNG TÔI</h5>
                     <h2 >DTTS luôn mang đến những giá trị <br> hoàn hảo cho khách hàng</h2>
                 </div>
-                <div class="content-center">
+                <div class="d-flex justify-content-center gap-5 mb-5">
                     <h3>Phát triển phần mềm</h3>
                     <h3>Tuyển dụng nhân sự</h3>
                 </div>
-                <div class="content-between">
-                    <div>
-                        <img src="./assets/imgs/bg-service.png" alt="bg image">
+                <div class="d-flex justify-content-between align-items-center flex-column-reverse flex-lg-row gap-5">
+                    <div >
+                        <img class="w-100" src="./assets/imgs/bg-service.png" alt="bg image">
                     </div>
-                    <div class="main-service_info">
+                    <div class="main-service_info text-center texxt-md-start">
                         <h5>Hỗ trợ doanh nghiệp</h5>
                         <h2>Cung cấp nhân sự phát triển phần mềm</h2>
                         <p>DTTS cung cấp một đội ngũ nhân sự là các chuyên gia, kỹ sư có chuyên môn cao giúp doanh nghiệp đạt được mục tiêu một cách hiệu quả, trong thời gian nhanh nhất với chi phí tiết kiệm nhất.</span>
@@ -256,12 +315,12 @@
             </div>
         </div>
         <div class="practice-set">
-            <div class="container">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <div class="text-center">
                     <h5>BỘ SƯU TẬP</h5>
                     <h2>Các sản phẩm của chúng tôi</h2>
                 </div>
-                <div class="content-between" style="gap: 32px;">
+                <div class="d-flex justify-content-between" style="gap: 32px;margin-top:64px;">
                     <div>
                         <img src="./assets/imgs/product.png" alt="image product">
                     </div>
@@ -278,21 +337,23 @@
             </div>
         </div>
         <div class="receive-news">
-            <div class="container content-between">
-                <div>
-                    <h2>Đăng ký nhận tin</h2>
-                    <p>Đăng ký ngay để nhận tin tức công nghệ mới nhất từ DTTS</p>
-                </div>
-                <div class="form-receive-news">
-                    <input type="email" placeholder="Nhập email của bạn">
-                    <div>
-                        <button class="btnCustom-receive">Tìm hiểu thêm</button>
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
+                <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center justify-content-lg-between align-items-center gap-5">
+                    <div class="text-center text-lg-start">
+                        <h2>Đăng ký nhận tin</h2>
+                        <p>Đăng ký ngay để nhận tin tức công nghệ mới nhất từ DTTS</p>
+                    </div>
+                    <div class="form-receive-news">
+                        <input type="email" placeholder="Nhập email của bạn">
+                        <div>
+                            <button class="btnCustom-receive">Tìm hiểu thêm</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="main-partners">
-            <div class="container">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <h2>Các đối tác nói gì về DTTS?</h2>
                 <div class="swiper">
                     <div class="swiper-wrapper">
@@ -373,14 +434,14 @@
             </div>
         </div>
         <div class="main-contact">
-            <div class="container">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <div class="text-center">
                     <h2>Liên hệ</h2>
                 </div>
                 <div class="form-contact">
                     <form action="">
-                        <div class="content-between">
-                            <div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-4">
+                            <div class="w-100">
                                 <div class="form-contact_enter">
                                     <label class="form-label">Họ và tên <span>*</span></label>
                                     <input type="email" class="form-control" placeholder="Nguyễn Văn A">
@@ -390,7 +451,7 @@
                                     <input type="text" class="form-control"  placeholder="Nhập số điện thoại">
                                 </div>
                             </div>
-                            <div>
+                            <div class="w-100">
                                 <div class="form-contact_enter">
                                     <label  class="form-label">Số điện thoại <span>*</span></label>
                                     <input type="email" class="form-control" placeholder="Số điện thoại của bạn">
@@ -408,7 +469,7 @@
                         <button class="btnCustom">Gửi <img src="./assets/icons/Send1.svg" alt=""></button>
                     </form>
                 </div>
-                <div class="main-contact_detail content-between">
+                <div class="main-contact_detail d-none d-md-flex justify-content-between align-items-center">
                     <div class="text-center">
                         <div>
                             <img src="./assets/imgs/Icon1.png" alt=" image ">
@@ -439,8 +500,8 @@
             </div>
         </div>
         <div class="main-news">
-            <div class="container">
-                <div class="main-news_header content-between">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
+                <div class="main-news_header d-flex justify-content-between align-items-center">
                     <div>
                         <span>THÔNG TIN CÔNG NGHỆ</span>
                         <h2>Tin tức mới nhất</h2>
@@ -450,7 +511,7 @@
                 <div class="main-news_body">
                     <div>
                         <div>
-                            <img src="./assets/imgs/new.png" alt="image">
+                            <img class="w-100" src="./assets/imgs/new.png" alt="image">
                         </div>
                         <a href="#">
                             <h3>GIAO LƯU VỚI THẦY TRÒ TRƯỜNG ĐẠI HỌC CNTT – ĐẠI HỌC THÁI NGUYÊN.</h3>
@@ -528,9 +589,9 @@
         </div>
     </main>
     <footer>
-        <div class="container">
+        <div class="container container-xxl  container-xl  container-lg container-md container-sm">
             <div class="footer-main">
-                <div class="content-between">
+                <div class="d-flex justify-content-between align-items-center">
                     <div>
                         <img src="./assets/imgs/logo.png" width="229" height="56" alt="logo">
                     </div>
@@ -622,7 +683,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-second content-between">
+            <div class="footer-second d-flex justify-content-between align-items-center">
                 <div>
                     <div><a href="#"><img src="./assets/icons/facebook.svg" alt="icon"></a></div>
                     <div><a href="#"><img src="./assets/icons/twitter.svg" alt="icon"></a></div>
@@ -647,6 +708,17 @@
                 nextEl: '.custom-button-next', 
                 prevEl: '.custom-button-prev'
             },
+            breakpoints:{
+                992:{
+                    slidesPerView: 3,
+                },
+                768:{
+                    slidesPerView: 2,
+                },
+                576:{
+                    slidesPerView: 1,
+                }
+            }
         })
       </script>
     <script>

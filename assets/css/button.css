@@ -7,6 +7,9 @@
     margin-top: 24px;
     background: rgba(244, 172, 22, 1);
 }
+.btnCustom:hover{
+    opacity: 0.8;
+}
 .btnCustom-receive{
     padding: 10px 20px;
     height: 100%;

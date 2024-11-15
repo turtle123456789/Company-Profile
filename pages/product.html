@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="header-top header-top--second">
-            <div class="container">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <div class="header-top_layout">
                     <div class="header-top_layout-left">
                         <p><span>Hotline:</span>0984662186</p>
@@ -21,7 +21,7 @@
                     <div class="header-top_layout-right">
                         <div>
                             <div>
-                                <img class="iconLanguage" src="../assets/icons/iconLgVn.svg" alt="icon">
+                                <img class="iconLanguage"  src="../assets/icons/iconLgVn.svg" alt="icon">
                             </div>
                             <div>
                                 <img src="../assets/icons/iconDown.svg" alt="icon">
@@ -46,20 +46,20 @@
             </div>
         </div>
         <div class="header-main header-main--second">
-            <div class="container">
-                <div class="header-main_layout content-between">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
+                <div class="header-main_layout d-flex justify-content-between align-items-center">
                     <div>
-                        <img src="../assets/imgs/logo2.png" alt="image logo">
+                        <img src="../assets/imgs/logo.png" alt="image logo">
                     </div>
-                    <ul class="content-between">
-                        <li>
+                    <ul class="d-flex align-items-center">
+                        <li class="link-popup">
                             <a href="../index.html">Trang chủ</a>
                         </li>
-                        <li>
-                            <a href="./introduce.html">Giới thiệu</a>
+                        <li class="link-popup">
+                            <a href="#">Giới thiệu</a>
                         </li>
                         <li class="link-popup">
-                            <a href="#">Sản phẩm</a>
+                            <a href="./product.html">Sản phẩm</a>
                             <img src="../assets/icons/iconDown.svg" alt="icon">
                             <div class="menu-popup">
                                 <div class="menu-popup_layout">
@@ -102,17 +102,17 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="link-popup">
                             <a href="#">Tin tức</a>
                         </li>
-                        <li>
+                        <li class="link-popup">
                             <a href="#">Tuyển dụng</a>
                         </li>
-                        <li>
+                        <li class="link-popup">
                             <a href="#">Liên hệ</a>
                         </li>
                     </ul>
-                    <div>
+                    <div style="cursor: pointer;">
                         <img src="../assets/icons/iconSearch.svg" style="filter: invert(1);" alt="icon">
                     </div>
                 </div>
@@ -121,107 +121,120 @@
     </header>
     <main>
         <div class="site-product">
-            <div class="container">
+            <div class="container container-xxl  container-xl  container-lg container-md container-sm">
                 <div style="margin-top: 151px; padding: 60px 0;" class="text-center">
                     <h1 style="font-size: 60px; line-height: 80px;margin-bottom: 24px;">Sản phẩm</h1>
                     <p style="font-size: 20px; line-height: 32px;color: #94959B;">Increase your  knowledge by reading articles with this blog. <br>Let’s start</p>
                 </div>
-                <div style="max-width: 812px;margin: auto;">
-                    <div class="content-between" >
-                        <input type="text" style="width:618px; height: 56px;border-radius: 12px;padding-left: 16px;background: #F6F6F6; border: none;" placeholder="Sản phẩm bạn đang tìm kiếm">
-                        <button  class="btnCustom" style="padding: 14px 20px;width: 170px;margin: 0;">Tìm kiếm</button>
-                    </div>
-                    <div style="display: flex;gap: 24px;align-items: center;margin-top: 38px;">
-                        <h3 style="margin: 0;">Công việc phổ biến</h3>
-                        <span style="border: 2px solid #CCCCCC; border-radius:24px;padding:8px 16px" >UI/UX Design</span>
-                        <span style="border: 2px solid #CCCCCC; border-radius:24px;padding:8px 16px" >Business</span>
-                        <span style="border: 2px solid #CCCCCC; border-radius:24px;padding:8px 16px" >Visual Design</span>
-                    </div>
+                <div class="d-flex justify-content-between align-items-center" style="max-width: 812px;margin: auto;">
+                    <input type="text" style="width:618px; height: 56px;border-radius: 12px;padding-left: 16px;background: #F6F6F6; border: none;" placeholder="Sản phẩm bạn đang tìm kiếm">
+                    <button  class="btnCustom" style="padding: 14px 20px;width: 170px;margin: 0;">Tìm kiếm</button>
                 </div>
-                <div style="margin: 80px 0 48px;" class="content-between">
+                <div style="margin: 80px 0 48px;" class="d-flex justify-content-between align-items-center">
                     <h2 style="margin: 0;">Sản phẩm</h2>
                     <a href="#" style="color: #F4AC16;font-size: 24px; line-height: 36px; font-weight: 700;">Xem hết</a>
                 </div>
                 <div class="site-product_list">
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product1.jfif) center/cover no-repeat ;">
+                    <div class="row">
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product1.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>The world is not only #000000 and #FFFFFF</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                        <div class="site-product_list_item_content">
-                            <p>The world is not only #000000 and #FFFFFF</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product2.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>Mastering the Basics of Icon Design with Adrien Coquet</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product2.jfif) center/cover no-repeat ;">
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product3.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>A map of discovery methods that any product manag should master</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                        <div class="site-product_list_item_content">
-                            <p>Mastering the Basics of Icon Design with Adrien Coquet</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product4.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>The world is not only #000000 and #FFFFFF</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product3.jfif) center/cover no-repeat ;">
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product5.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>Mastering the Basics of Icon Design with Adrien Coquet</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                        <div class="site-product_list_item_content">
-                            <p>A map of discovery methods that any product manag should master</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product6.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>A map of discovery methods that any product manager should master</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product4.jfif) center/cover no-repeat ;">
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product7.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>The world is not only #000000 and #FFFFFF</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                        <div class="site-product_list_item_content">
-                            <p>The world is not only #000000 and #FFFFFF</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product8.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>Mastering the Basics of Icon Design with Adrien Coquet</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product5.jfif) center/cover no-repeat ;">
+                        <div class="col col-12 col-md-6 col-lg-4">
+                            <div class="site-product_list_item">
+                                <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product9.jfif) center/cover no-repeat ;">
+                                </div>
+                                <div class="site-product_list_item_content">
+                                    <p>A map of discovery methods that any product manager should master</p>
+                                    <h4>Aug 2, 2021 · 5 min read</h4>
+                                </div>
+                            </div>
                         </div>
-                        <div class="site-product_list_item_content">
-                            <p>Mastering the Basics of Icon Design with Adrien Coquet</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
-                        </div>
-                    </div>
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product6.jfif) center/cover no-repeat ;">
-                        </div>
-                        <div class="site-product_list_item_content">
-                            <p>A map of discovery methods that any product manager should master</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
-                        </div>
-                    </div>
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product7.jfif) center/cover no-repeat ;">
-                        </div>
-                        <div class="site-product_list_item_content">
-                            <p>The world is not only #000000 and #FFFFFF</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
-                        </div>
-                    </div>
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product8.jfif) center/cover no-repeat ;">
-                        </div>
-                        <div class="site-product_list_item_content">
-                            <p>Mastering the Basics of Icon Design with Adrien Coquet</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
-                        </div>
-                    </div>
-                    <div class="site-product_list_item">
-                        <div style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url(../assets/imgs/Product9.jfif) center/cover no-repeat ;">
-                        </div>
-                        <div class="site-product_list_item_content">
-                            <p>A map of discovery methods that any product manager should master</p>
-                            <h4>Aug 2, 2021 · 5 min read</h4>
-                        </div>
+
                     </div>
                 </div>
-                <div style="background: url(../assets/imgs/bg-product.png) center/cover no-repeat ;height: 434px;margin: 120px 0;" class="content-center">
-                    <div  class="text-center" style="min-width: 812px;margin: auto;color: #fff;">
+                <div style="background: url(../assets/imgs/bg-product.png) center/cover no-repeat ;height: 434px;margin: 120px 0;" class="d-flex justify-content-center align-items-center">
+                    <div  class="text-center" style="max-width: 812px;width: 100%;margin: auto;color: #fff;">
                         <h5 style="font-size: 72px;line-height:normal;">Kết nối với chúng tôi</h5>
                         <h3 style="margin-bottom: 60px;">Hãy để lại email chúng tôi sẽ liên hệ với bạn</h3>
-                        <div class="content-between" >
-                            <input type="text" style="width:618px; height: 56px;border-radius: 12px;padding-left: 16px;background: #F6F6F6; border: none;" placeholder="Nhập email của bạn">
+                        <div class="d-flex justify-content-between  align-items-center gap-3" style="margin: 0 20px;" >
+                            <input type="text" style="max-width:618px;width: 100%; height: 56px;border-radius: 12px;padding-left: 16px;background: #F6F6F6; border: none;" placeholder="Nhập email của bạn">
                             <button  class="btnCustom" style="padding: 14px 20px;width: 170px;margin: 0;">Kết nối</button>
                         </div>
                         
@@ -231,9 +244,9 @@
         </div>
     </main>
     <footer>
-        <div class="container">
+        <div class="container container-xxl  container-xl  container-lg container-md container-sm">
             <div class="footer-main">
-                <div class="content-between">
+                <div class="d-flex justify-content-between align-items-center">
                     <div>
                         <img src="../assets/imgs/logo.png" width="229" height="56" alt="logo">
                     </div>
@@ -325,7 +338,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-second content-between">
+            <div class="footer-second d-flex justify-content-between align-items-center">
                 <div>
                     <div><a href="#"><img src="../assets/icons/facebook.svg" alt="icon"></a></div>
                     <div><a href="#"><img src="../assets/icons/twitter.svg" alt="icon"></a></div>

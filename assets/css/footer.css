@@ -26,6 +26,7 @@ footer{
     padding: 60px 0;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 .footer-main .footer-main_list > div:first-child{
     max-width: 324px;
@@ -40,7 +41,8 @@ footer{
     max-width: 376px;
 }
 .footer-main .footer-main_list > div:last-child{
-    min-width: 336px;
+    max-width: 336px;
+    width: 100%;
 }
 .footer-main .footer-main_list > div:last-child .form-search{
     margin-top: 31px;
@@ -65,10 +67,6 @@ footer{
 .footer-second{
     padding: 28px 0;
     border-top: 1px solid rgba(38, 38, 38, 1)
-}
-.footer-second >div{
-    display: flex;
-    gap:16px;
 }
 .footer-second >div>p{
     font-weight: 500;
